@@ -4,3 +4,6 @@ theme: minima
 
 header_pages:
   - projects.md
+
+baseurl: "/after-hours-sidequests"
+url: "https://redjellybean.github.io"

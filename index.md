@@ -1,53 +1,82 @@
 ---
 layout: home
-title: After Hours Sidequests
+# title: After Hours Sidequests
 ---
 
-Ongoing engineering projects, experiments, and build logs.
+Welcome to After Hours Sidequests.
 
-Mostly embedded systems, robotics, control systems, CAD, and things that accidentally became larger than intended.
+This is a personal build log for small engineering projects, prototypes, and experiments. Mostly embedded systems, robotics, control systems, CAD, and things that started as quick ideas but turned into longer side quests.
 
-This site documents the development process behind personal side projects, including failed attempts, redesigns, debugging notes, and incremental improvements over time.
+## Current Builds
 
----
+<div style="
+display:grid;
+grid-template-columns:repeat(3, 1fr);
+gap:30px;
+margin-top:30px;
+">
 
-## Current Projects
+<div>
 
-### [ESP8266 OLED Clock](projects/clock)
+<h3>
+  <a href="{{ '/projects/clock/' | relative_url }}">
+    ESP8266 OLED Clock
+  </a>
+</h3>
 
-A Wi-Fi-synchronized desk clock built with an ESP8266 D1 Mini and SSD1306 OLED display.
+<a href="{{ '/projects/clock/' | relative_url }}">
+  <img
+    src="{{ '/assets/images/clock/thumbnail.jpeg' | relative_url }}"
+    alt="ESP8266 OLED Clock thumbnail"
+    style="
+      width:100%;
+      max-width:320px;
+      border-radius:10px;
+    ">
+</a>
 
-Topics:
-- Embedded systems
-- ESP8266
-- OLED displays
-- NTP synchronization
+<p>
+Wi-Fi synchronized desk clock using an ESP8266 D1 Mini and SSD1306 OLED display.
+</p>
 
----
+</div>
 
-### Rover Project
+<div>
 
-An incremental robotics project focused on sensing, embedded systems, motion control, and experimentation.
+<h3>Rover Project</h3>
 
-Planned stages:
-- Basic movement
-- Obstacle detection
-- Sensor scanning
-- Mapping
-- Control improvements
+<img
+  src="{{ '/assets/images/placeholder.jpg' | relative_url }}"
+  alt="Rover placeholder"
+  style="
+    width:100%;
+    max-width:320px;
+    border-radius:10px;
+  ">
 
-Project page coming soon.
+<p>
+Incremental robotics project focused on sensing, motion control, and embedded systems.
+</p>
 
----
+</div>
 
-## Purpose of This Site
+<div>
 
-This is not intended to be a polished showcase of finished products.
+<h3>Future Project</h3>
 
-The focus is on documenting:
-- iteration
-- debugging
-- mistakes
-- redesigns
-- lessons learned
-- engineering process
+<img
+  src="{{ '/assets/images/placeholder.jpg' | relative_url }}"
+  alt="Future project placeholder"
+  style="
+    width:100%;
+    max-width:320px;
+    border-radius:10px;
+  ">
+
+<p>
+More side quests coming soon.
+</p>
+
+</div>
+
+</div>
