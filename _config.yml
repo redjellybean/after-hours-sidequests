@@ -1,3 +1,6 @@
 title: After Hours Sidequests
 description: Build logs for embedded systems, robotics, and engineering side projects
 theme: minima
+
+header_pages:
+  - projects.md
